@@ -4,13 +4,13 @@
 		// Enable latest features
 		"lib": ["ESNext", "DOM"],
 		"target": "ESNext",
-		"module": "Node16",
+		"module": "NodeNext",
 		"moduleDetection": "force",
 		"jsx": "react-jsx",
 		"allowJs": true,
 
 		// Bundler mode
-		"moduleResolution": "node16",
+		"moduleResolution": "nodenext",
 		"noEmit": true,
 
 		// Best practices
@@ -23,6 +23,8 @@
 		"noUnusedParameters": true,
 		"noPropertyAccessFromIndexSignature": false,
 		"forceConsistentCasingInFileNames": true,
+
+		"esModuleInterop": true,
 
 		"types": ["@types/react", "@types/node"]
 	},

@@ -5,9 +5,8 @@
 	"installCommand": "bun install",
 	"rewrites": [{ "source": "/cli", "destination": "/api/cli.tsx" }],
 	"functions": {
-		"api/**/*": {
-			"runtime": "nodejs18.x",
-			"memory": 1024
+		"api/cli.tsx": {
+			"includeFiles": "./src/**/*"
 		}
 	}
 }

@@ -1,0 +1,30 @@
+{
+	"name": "curl-website",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"lint": "biome check --fix",
+		"format": "biome format --write",
+		"test": "FORCE_COLOR=true bun test"
+	},
+	"patchedDependencies": {
+		"ink@5.1.0": "patches/ink@5.1.0.patch"
+	},
+	"dependencies": {
+		"ink": "5.1.0",
+		"ink-divider": "^4.1.0",
+		"ink-link": "^4.1.0",
+		"ink-testing-library": "^4.0.0",
+		"typescript": "^5.7.3"
+	},
+	"peerDependencies": {
+		"react": "^18.3.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.13.5",
+		"@types/react": "^18.3.1",
+		"@vercel/node": "^5.1.9",
+		"bun-types": "^1.2.3"
+	}
+}

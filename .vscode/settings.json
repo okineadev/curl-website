@@ -1,0 +1,12 @@
+{
+	// Formatter settings
+	"editor.defaultFormatter": "biomejs.biome",
+	"[json]": { "editor.defaultFormatter": "biomejs.biome" },
+
+	"files.readonlyInclude": {
+		"bun.lock": true
+	},
+
+	"material-icon-theme.activeIconPack": "react",
+	"typescript.tsdk": "node_modules/typescript/lib"
+}

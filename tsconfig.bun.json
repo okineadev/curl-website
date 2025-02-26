@@ -1,0 +1,13 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"composite": true,
+		"noEmit": false,
+		"emitDeclarationOnly": true,
+		"allowImportingTsExtensions": true,
+
+		"types": ["@types/react", "bun-types"]
+	},
+
+	"include": ["tests/**/*.tsx"]
+}

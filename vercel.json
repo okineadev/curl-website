@@ -3,6 +3,6 @@
 	"version": 2,
 	"public": true,
 	"installCommand": "bun install",
-	"buildCommand": "bun build api/cli.tsx --target=node --format=esm --outdir=.vercel/output/functions/cli",
+	"buildCommand": "bun build api/cli.tsx --target=node --format=esm --outdir=public/cli",
 	"rewrites": [{ "source": "/cli", "destination": "/api/cli.tsx" }]
 }

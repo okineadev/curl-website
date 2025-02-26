@@ -2,5 +2,6 @@
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"version": 2,
 	"public": true,
+	"installCommand": "bun install",
 	"rewrites": [{ "source": "/cli", "destination": "/api/cli.tsx" }]
 }

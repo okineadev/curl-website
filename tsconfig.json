@@ -10,7 +10,7 @@
 		"allowJs": true,
 
 		// Bundler mode
-		"moduleResolution": "nodenext",
+		"moduleResolution": "NodeNext",
 		"noEmit": true,
 
 		// Best practices
@@ -28,5 +28,5 @@
 
 		"types": ["@types/react", "@types/node"]
 	},
-	"include": ["src/**/*.tsx", "src/**/*.tsx", "api/**/*.tsx"]
+	"include": ["src/**/*.tsx", "src/**/*.ts", "api/**/*.tsx"]
 }

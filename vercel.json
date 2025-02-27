@@ -3,5 +3,10 @@
 	"version": 2,
 	"public": true,
 	"buildCommand": "bun run build",
-	"outputDirectory": ".vercel/output"
+	"rewrites": [{ "source": "/cli", "destination": "/api/cli.tsx" }],
+	"functions": {
+		"api/cli.tsx": {
+			"includeFiles": "./src/**/*"
+		}
+	}
 }

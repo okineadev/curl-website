@@ -5,8 +5,7 @@
 	"scripts": {
 		"lint": "biome check --fix",
 		"format": "biome format --write",
-		"test": "FORCE_COLOR=true bun test",
-		"build": "bun build/build.ts"
+		"test": "FORCE_COLOR=true bun test"
 	},
 	"patchedDependencies": {
 		"ink@5.1.0": "patches/ink@5.1.0.patch"

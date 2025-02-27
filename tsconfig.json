@@ -2,8 +2,8 @@
 	"compilerOptions": {
 		"jsx": "preserve",
 		"esModuleInterop": true,
-		"module": "ESNext",
-		"moduleResolution": "bundler",
+		"module": "NodeNext", // Changed from ESNext to NodeNext
+		"moduleResolution": "NodeNext", // Changed from bundler to NodeNext
 		"isolatedModules": true,
 		"allowJs": true,
 		"strict": true,

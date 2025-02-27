@@ -6,7 +6,7 @@
 	"functions": {
 		"api/cli.tsx": {
 			"includeFiles": "./src/**/*",
-			"runtime": "nodejs18.x"
+			"runtime": "@vercel/node@5.1.9"
 		}
 	}
 }

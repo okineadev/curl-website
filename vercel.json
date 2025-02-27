@@ -2,7 +2,6 @@
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"version": 2,
 	"public": true,
-	"buildCommand": "bun run build",
 	"rewrites": [{ "source": "/cli", "destination": "/api/cli.tsx" }],
 	"functions": {
 		"api/cli.tsx": {

@@ -4,6 +4,8 @@
 		"esModuleInterop": true,
 		"module": "NodeNext",
 		"moduleResolution": "nodenext",
-		"target": "ESNext"
+		"target": "ESNext",
+
+		"types": ["@types/react"]
 	}
 }

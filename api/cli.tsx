@@ -5,6 +5,8 @@ import { render } from 'ink-testing-library'
 
 import App from '../src/App.js'
 
+const config = { runtime: 'nodejs' }
+
 export default async function handler(req: VercelRequest, res: VercelResponse) {
 	try {
 		const countryCodeHeader = req.headers['x-vercel-ip-country']

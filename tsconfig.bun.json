@@ -6,8 +6,8 @@
 		"emitDeclarationOnly": true,
 		"allowImportingTsExtensions": true,
 
-		"types": ["@types/react", "bun-types"]
+		"types": ["@types/react", "bun-types", "@types/bun"]
 	},
 
-	"include": ["tests/**/*.tsx"]
+	"include": ["tests/**/*.tsx", "build/**/*.ts"]
 }

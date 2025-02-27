@@ -4,4 +4,3 @@ tests
 .vscode
 patches
 bun.lock
-tsconfig.bun.json 

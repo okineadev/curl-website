@@ -5,7 +5,8 @@
 	"scripts": {
 		"lint": "biome check --fix",
 		"format": "biome format --write",
-		"test": "FORCE_COLOR=true bun test"
+		"test": "FORCE_COLOR=true bun test",
+		"build": "bun build/build.ts"
 	},
 	"patchedDependencies": {
 		"ink@5.1.0": "patches/ink@5.1.0.patch"
@@ -22,6 +23,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
+		"@types/bun": "^1.2.4",
 		"@types/node": "^22.13.5",
 		"@types/react": "^18.3.1",
 		"@vercel/node": "^5.1.9",

@@ -5,8 +5,7 @@
 	"rewrites": [{ "source": "/cli", "destination": "/api/cli.tsx" }],
 	"functions": {
 		"api/cli.tsx": {
-			"includeFiles": "./src/**/*",
-			"runtime": "@vercel/node@5.1.9"
+			"includeFiles": "./src/**/*"
 		}
 	}
 }

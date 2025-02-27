@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"jsx": "react-jsx",
+		"jsx": "preserve",
 		"esModuleInterop": true,
 		"module": "NodeNext",
 		"moduleResolution": "nodenext",

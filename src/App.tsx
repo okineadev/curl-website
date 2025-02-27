@@ -7,7 +7,8 @@ import MediumPost from './components/MediumPost.js'
 
 import socials from './socials.js'
 import projects from './projects.js'
-import type React from 'react'
+// biome-ignore lint/style/useImportType: <explanation>
+import React from 'react'
 
 // Constants
 const BORDER_STYLE: BoxProps['borderStyle'] = 'round'

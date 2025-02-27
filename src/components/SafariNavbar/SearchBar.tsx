@@ -1,5 +1,6 @@
 import { Box, Text } from 'ink'
 import Link from 'ink-link'
+import React from 'react'
 
 const SearchBar = () => (
 	<Box width="100%" justifyContent="center" position="absolute">

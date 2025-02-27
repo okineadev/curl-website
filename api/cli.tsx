@@ -1,3 +1,4 @@
+import React from 'react'
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 
 import { render } from 'ink-testing-library'

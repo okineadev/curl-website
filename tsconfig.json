@@ -2,11 +2,13 @@
 	"references": [{ "path": "./tsconfig.bun.json" }],
 	"compilerOptions": {
 		"esModuleInterop": true,
-		"module": "NodeNext",
-		"moduleResolution": "nodenext",
+		"module": "Node16",
+		"moduleResolution": "node16",
+		"moduleDetection": "force",
 		"target": "ESNext",
 
-		"jsx": "react-jsx",
+		"jsx": "react",
+		"isolatedModules": true,
 
 		"types": ["@types/react", "@types/node"]
 	},

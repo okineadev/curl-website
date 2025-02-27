@@ -1,5 +1,7 @@
 import { Box, Text, type BoxProps } from 'ink'
 import Link from 'ink-link'
+// biome-ignore lint/style/useImportType: <explanation>
+import React from 'react'
 
 interface MediumPostProps {
 	/**

@@ -1,9 +1,9 @@
 {
 	"compilerOptions": {
-		"jsx": "react",
+		"jsx": "preserve",
 		"esModuleInterop": true,
-		"module": "NodeNext",
-		"moduleResolution": "nodenext",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
 		"isolatedModules": true,
 		"allowJs": true,
 		"strict": true,

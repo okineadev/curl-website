@@ -2,9 +2,9 @@
 	"compilerOptions": {
 		"jsx": "preserve",
 		"esModuleInterop": true,
-		"module": "NodeNext",
-		"moduleResolution": "nodenext",
-		"target": "ESNext",
+		// "module": "NodeNext",
+		// "moduleResolution": "nodenext",
+		// "target": "ESNext",
 
 		"types": ["@types/react"]
 	}

@@ -1,20 +1,14 @@
 {
 	"compilerOptions": {
-		"target": "ES2022",
-		"module": "NodeNext",
-		"moduleResolution": "NodeNext",
-		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-		"strict": true,
-		"forceConsistentCasingInFileNames": true,
-		"skipLibCheck": true,
 		"jsx": "react",
-		"outDir": "dist",
-		"resolveJsonModule": true,
-		"baseUrl": ".",
-		"paths": {
-			"*": ["node_modules/*"]
-		}
+		"esModuleInterop": true,
+		"module": "NodeNext",
+		"moduleResolution": "nodenext",
+		"isolatedModules": true,
+		"allowJs": true,
+		"strict": true,
+		"noEmit": true,
+		"types": ["@types/react", "@vercel/node", "node"]
 	},
 	"include": ["**/*.ts", "**/*.tsx"],
 	"exclude": ["node_modules"]

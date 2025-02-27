@@ -28,7 +28,7 @@ await writeFile(
 	JSON.stringify(
 		{
 			runtime: 'nodejs22.x',
-			entrypoint: 'index.js',
+			entrypoint: 'cli.js',
 		},
 		null,
 		2,

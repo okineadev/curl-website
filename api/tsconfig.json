@@ -4,7 +4,7 @@
 		"esModuleInterop": true,
 		"module": "Preserve",
 		"isolatedModules": true,
-		// "moduleResolution": "nodenext",
+		"moduleResolution": "bundler",
 		// "target": "ESNext",
 
 		"types": ["@types/react"]

@@ -6,7 +6,7 @@ import { render } from 'ink-testing-library'
 
 import App from '../src/App.js'
 
-export const config = { runtime: 'nodejs' }
+// export const config = { runtime: 'nodejs' }
 
 export default async function handler(
 	req: NextApiRequest,

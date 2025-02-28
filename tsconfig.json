@@ -8,17 +8,19 @@
 		"forceConsistentCasingInFileNames": true,
 		"noEmit": true,
 		"esModuleInterop": true,
-		"module": "esnext",
-		"moduleResolution": "node",
+		"module": "NodeNext",
+		"moduleResolution": "nodenext",
 		"resolveJsonModule": true,
 		"isolatedModules": true,
-		"jsx": "react",
+		"jsx": "react-jsx",
 		"incremental": true,
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["./*"]
-		}
+		},
+
+		"types": ["@types/react"]
 	},
-	"include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", "api/**/*.tsx"],
+	"include": ["src/**/*.ts", "src/**/*.tsx", "api/**/*.tsx"],
 	"exclude": ["node_modules"]
 }

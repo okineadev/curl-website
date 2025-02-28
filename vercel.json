@@ -9,7 +9,7 @@
 	"rewrites": [{ "source": "/cli", "destination": "/api/cli.tsx" }],
 	"functions": {
 		"api/cli.tsx": {
-			"includeFiles": "./src/**/*"
+			"includeFiles": "./{src/**/*,package.json}"
 		}
 	}
 }

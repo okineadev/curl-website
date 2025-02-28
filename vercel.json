@@ -8,7 +8,7 @@
 	"ignoreCommand": "",
 	"functions": {
 		"api/cli.tsx": {
-			"includeFiles": "{package.json,src/**/*,./node_modules/yoga-wasm-web/dist/yoga.wasm}"
+			"includeFiles": "{package.json,api/**/*.tsx,./node_modules/yoga-wasm-web/dist/yoga.wasm}"
 		}
 	}
 }

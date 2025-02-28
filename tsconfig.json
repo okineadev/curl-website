@@ -1,27 +1,16 @@
 {
 	"compilerOptions": {
-		"target": "es5",
+		"target": "ESNext",
 		"lib": ["dom", "dom.iterable", "esnext"],
-		"allowJs": true,
-		"skipLibCheck": true,
 		"strict": true,
-		"forceConsistentCasingInFileNames": true,
-		"noEmit": true,
 		"esModuleInterop": true,
 		"module": "NodeNext",
 		"moduleResolution": "nodenext",
-		"resolveJsonModule": true,
-		"isolatedModules": true,
 		"jsx": "react-jsx",
-		"incremental": true,
-		"baseUrl": ".",
 		"allowImportingTsExtensions": true,
-		"paths": {
-			"@/*": ["./*"]
-		},
 
-		"types": ["@types/react"]
+		"types": ["@types/react", "@types/node"]
 	},
-	"include": ["src/**/*.ts", "src/**/*.tsx", "api/**/*.tsx"],
+	"include": ["api/**/*.ts", "api/**/*.tsx"],
 	"exclude": ["node_modules"]
 }

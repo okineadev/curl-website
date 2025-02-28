@@ -1,10 +1,9 @@
-import React from 'react'
 // import type { VercelRequest, VercelResponse } from '@vercel/node'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 import { render } from 'ink-testing-library'
 
-import App from '../src/App.tsx'
+import App from './_src/app.tsx'
 
 // export const config = { runtime: 'nodejs' }
 

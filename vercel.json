@@ -8,7 +8,7 @@
 	"ignoreCommand": "",
 	"functions": {
 		"api/cli.tsx": {
-			"includeFiles": "**/*",
+			"includeFiles": "**/*.{ts,tsx,json}",
 			"excludeFiles": "./node_modules/"
 		}
 	}

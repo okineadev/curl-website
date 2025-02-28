@@ -15,6 +15,7 @@
 		"jsx": "react-jsx",
 		"incremental": true,
 		"baseUrl": ".",
+		"allowImportingTsExtensions": true,
 		"paths": {
 			"@/*": ["./*"]
 		},

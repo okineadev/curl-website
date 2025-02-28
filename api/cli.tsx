@@ -4,7 +4,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 
 import { render } from 'ink-testing-library'
 
-import App from '../src/App.js'
+import App from '../src/App.tsx'
 
 // export const config = { runtime: 'nodejs' }
 

@@ -2,6 +2,11 @@
 	"name": "curl-website",
 	"private": true,
 	"type": "module",
+	"main": "index.js",
+	"engines": {
+		"node": ">=18.x"
+	},
+
 	"scripts": {
 		"lint": "biome check --fix",
 		"format": "biome format --write",

@@ -15,8 +15,8 @@
 		"ink-divider": "^4.1.0",
 		"ink-link": "^4.1.0",
 		"ink-testing-library": "^4.0.0",
-		"ts-node": "^10.9.2",
-		"typescript": "^5.7.3"
+		"next": "^15.2.0",
+		"ts-node": "^10.9.2"
 	},
 	"peerDependencies": {
 		"react": "^18.3.1"
@@ -27,6 +27,7 @@
 		"@types/node": "^22.13.5",
 		"@types/react": "^18.3.1",
 		"@vercel/node": "^5.1.9",
-		"bun-types": "^1.2.3"
+		"bun-types": "^1.2.3",
+		"typescript": "^5.7.3"
 	}
 }

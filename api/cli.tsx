@@ -1,13 +1,17 @@
 import React from 'react'
-import type { VercelRequest, VercelResponse } from '@vercel/node'
+// import type { VercelRequest, VercelResponse } from '@vercel/node'
+import type { NextApiRequest, NextApiResponse } from 'next'
 
 import { render } from 'ink-testing-library'
 
 import App from '../src/App.js'
 
-const config = { runtime: 'nodejs' }
+export const config = { runtime: 'nodejs' }
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(
+	req: NextApiRequest,
+	res: NextApiResponse,
+) {
 	try {
 		const countryCodeHeader = req.headers['x-vercel-ip-country']
 		const countryCode: string | undefined =

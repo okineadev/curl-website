@@ -1,15 +1,24 @@
 {
 	"compilerOptions": {
-		"jsx": "preserve",
-		"esModuleInterop": true,
-		"module": "NodeNext", // Changed from ESNext to NodeNext
-		"moduleResolution": "NodeNext", // Changed from bundler to NodeNext
-		"isolatedModules": true,
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
 		"allowJs": true,
+		"skipLibCheck": true,
 		"strict": true,
+		"forceConsistentCasingInFileNames": true,
 		"noEmit": true,
-		"types": ["@types/react", "@vercel/node", "node"]
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./*"]
+		}
 	},
-	"include": ["**/*.ts", "**/*.tsx"],
+	"include": ["api/**/*.ts", "api/**/*.tsx", "src/**/*.tsx", "src/**/*.ts"],
 	"exclude": ["node_modules"]
 }
